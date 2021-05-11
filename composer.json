@@ -1,0 +1,23 @@
+{
+    "name": "cerf/cerf",
+    "description": "Framework MVC",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CERF\\":"core/",
+            "Source\\":"src/"
+        },
+        "files": ["helpers/index.php"]
+    },
+    "authors": [
+        {
+            "name": "Carlos Eduardo",
+            "email": "carloseduardo.rocha.f@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "5.3.x-dev"
+    }
+}
